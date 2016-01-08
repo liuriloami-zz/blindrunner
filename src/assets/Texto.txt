@@ -1,0 +1,7 @@
+Tap from up-down to go ahead and down-up to go back.
+Tap right-left to turn right and left-right to turn left.
+You must plug your phones to listen the events of the game.
+You are inside a labyrinth, you can hear your own steps and the noise when you crash at a wall, besides, you also can hear the monster's steps.
+You must guide yourself by wind sound, it will increase the more you get close to exit.
+The more you spent your time, the more the monster will become fast.
+You will not be able to see anything, the sounds will guide you.

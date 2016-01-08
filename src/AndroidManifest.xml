@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Blind Runner Game developed by University of Sâo Paulo's Students:
+    Guilherme Bordignon, Computer Engineering, EESC/ICMC-USP
+    Liuri Loami, Computer Science, ICMC-USP
+    Yago Dórea, Computer Engineering, EESC/ICMC-USP
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="osphi.blindrunner"
+    android:versionCode="18"
+    android:versionName="1.17" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:hardwareAccelerated="true" android:logo="@drawable/icon" android:largeHeap="true">
+        <activity
+            android:name="osphi.blindrunner.FirstActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait" />
+        <activity android:name=".RankingActivity" android:screenOrientation="portrait" android:noHistory="true"/>
+        <activity android:name=".GetAccountActivity" android:screenOrientation="portrait" android:noHistory="true"/>
+        <activity android:name=".GameActivity" android:screenOrientation="portrait" android:noHistory="true"/>
+        <activity android:name=".LevelSelectActivity" android:screenOrientation="portrait" android:noHistory="true"/>
+        <activity android:name=".GameoverActivity" android:screenOrientation="portrait" android:noHistory="true"/>
+        <activity android:name=".VictoryActivity" android:screenOrientation="portrait" android:noHistory="true"/>
+        <activity android:name=".AboutActivity" android:screenOrientation="portrait" android:noHistory="true"/>
+    </application>
+
+</manifest>

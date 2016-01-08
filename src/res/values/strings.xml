@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blind Runner</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Start!</string>
+    <string name="game_over">Game Over</string>
+    <string name="victory">Victory!</string>
+
+</resources>
